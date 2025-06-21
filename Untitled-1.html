@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Tag Demo</title>
+  <style>
+    fieldset { margin: 10px 0; }
+    iframe, video, audio { margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<!-- This is a comment -->
+
+<center><h1>HTML Tag Demonstration</h1></center>
+
+<address>Written by Harsh<br>Visit us at: www.example.com</address>
+
+<hr>
+
+<h2>Text Formatting</h2>
+<p>This is a <b>bold</b>, <i>italic</i>, and <u>underlined</u> text.</p>
+<p>Subscript: H<sub>2</sub>O and Superscript: x<sup>2</sup></p>
+<p><br>This is a line break.</p>
+<pre>
+This is preformatted text.
+  Indented and spaced.
+</pre>
+<marquee>Scrolling Text using &lt;marquee&gt;</marquee>
+
+<h2>List Demonstration</h2>
+<ul>
+  <li>Unordered List Item 1</li>
+  <li>Unordered List Item 2</li>
+</ul>
+<ol>
+  <li>Ordered List Item 1</li>
+  <li>Ordered List Item 2</li>
+</ol>
+
+<h2>Table Demo</h2>
+<table border="1">
+  <caption>Sample Table</caption>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>25</td>
+  </tr>
+</table>
+
+<h2>Form Elements</h2>
+<form>
+  <label>Name: <input type="text" name="name"></label><br><br>
+  <label>Comment:</label><br>
+  <textarea rows="4" cols="30"></textarea><br><br>
+  <label>Gender:
+    <select>
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+  </label><br><br>
+  <label>Choose a browser:
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Chrome">
+      <option value="Firefox">
+    </datalist>
+  </label><br><br>
+  <button type="submit">Submit</button>
+</form>
+
+<h2>Fieldset Demo</h2>
+<fieldset>
+  <legend>Personal Info</legend>
+  Name: <input type="text"><br>
+  Age: <input type="number">
+</fieldset>
+
+<h2>Media Elements</h2>
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<h2>Image & Link</h2>
+<a href="https://example.com">Visit Example</a><br>
+<img src="image.jpg" alt="Sample Image" width="200">
+
+<h2>Inline Frame</h2>
+<iframe src="https://example.com" width="300" height="200"></iframe>
+
+<!-- Deprecated tags demonstration (still render in some browsers) -->
+<h2>Deprecated Tags</h2>
+<font color="red">This is red text using &lt;font&gt;</font><br>
+
+<frameset cols="50%,50%">
+  <frame src="https://example.com">
+  <frame src="https://example.org">
+</frameset>
+
+</body>
+</html>
